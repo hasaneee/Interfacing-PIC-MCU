@@ -1,0 +1,262 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"12 E:\MPLABX\PIC16F877A_Enternal_Interrupts.X/lcd.h
+[v _Lcd_SetBit Lcd_SetBit `(v  1 e 1 0 ]
+[v i1_Lcd_SetBit Lcd_SetBit `(v  1 e 1 0 ]
+"35
+[v _Lcd_Cmd Lcd_Cmd `(v  1 e 1 0 ]
+[v i1_Lcd_Cmd Lcd_Cmd `(v  1 e 1 0 ]
+"44
+[v _Lcd_Clear Lcd_Clear `(i  1 e 2 0 ]
+"50
+[v _Lcd_Set_Cursor Lcd_Set_Cursor `(v  1 e 1 0 ]
+[v i1_Lcd_Set_Cursor Lcd_Set_Cursor `(v  1 e 1 0 ]
+"71
+[v _Lcd_Start Lcd_Start `(v  1 e 1 0 ]
+"89
+[v _Lcd_Print_Char Lcd_Print_Char `(v  1 e 1 0 ]
+[v i1_Lcd_Print_Char Lcd_Print_Char `(v  1 e 1 0 ]
+"105
+[v _Lcd_Print_String Lcd_Print_String `(v  1 e 1 0 ]
+[v i1_Lcd_Print_String Lcd_Print_String `(v  1 e 1 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"17 E:\MPLABX\PIC16F877A_Enternal_Interrupts.X\main.c
+[v _ISR_example ISR_example `II(v  1 e 1 0 ]
+"32
+[v _main main `(v  1 e 1 0 ]
+[s S62 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"477 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h
+[s S71 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 T0IE 1 0 :1:5 
+]
+[u S76 . 1 `S62 1 . 1 0 `S71 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES76  1 e 1 @11 ]
+"1255
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @129 ]
+[s S40 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"1392
+[u S49 . 1 `S40 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES49  1 e 1 @134 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"2605
+[v _INTF INTF `VEb  1 e 0 @89 ]
+"2755
+[v _RD2 RD2 `VEb  1 e 0 @66 ]
+"2758
+[v _RD3 RD3 `VEb  1 e 0 @67 ]
+"2761
+[v _RD4 RD4 `VEb  1 e 0 @68 ]
+"2764
+[v _RD5 RD5 `VEb  1 e 0 @69 ]
+"2767
+[v _RD6 RD6 `VEb  1 e 0 @70 ]
+"2770
+[v _RD7 RD7 `VEb  1 e 0 @71 ]
+"13 E:\MPLABX\PIC16F877A_Enternal_Interrupts.X\main.c
+[v _number number `i  1 e 2 0 ]
+"14
+[v _ch1 ch1 `uc  1 e 1 0 ]
+[v _ch2 ch2 `uc  1 e 1 0 ]
+[v _ch3 ch3 `uc  1 e 1 0 ]
+[v _ch4 ch4 `uc  1 e 1 0 ]
+"32
+[v _main main `(v  1 e 1 0 ]
+{
+"62
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 22 ]
+[v ___awmod@counter counter `uc  1 a 1 21 ]
+"5
+[v ___awmod@divisor divisor `i  1 p 2 16 ]
+[v ___awmod@dividend dividend `i  1 p 2 18 ]
+"34
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 14 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 13 ]
+[v ___awdiv@counter counter `uc  1 a 1 12 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 7 ]
+[v ___awdiv@dividend dividend `i  1 p 2 9 ]
+"41
+} 0
+"71 E:\MPLABX\PIC16F877A_Enternal_Interrupts.X/lcd.h
+[v _Lcd_Start Lcd_Start `(v  1 e 1 0 ]
+{
+"87
+} 0
+"50
+[v _Lcd_Set_Cursor Lcd_Set_Cursor `(v  1 e 1 0 ]
+{
+[v Lcd_Set_Cursor@a a `uc  1 a 1 wreg ]
+"52
+[v Lcd_Set_Cursor@temp temp `uc  1 a 1 17 ]
+[v Lcd_Set_Cursor@y y `uc  1 a 1 16 ]
+[v Lcd_Set_Cursor@z z `uc  1 a 1 15 ]
+"50
+[v Lcd_Set_Cursor@a a `uc  1 a 1 wreg ]
+[v Lcd_Set_Cursor@b b `uc  1 p 1 11 ]
+"53
+[v Lcd_Set_Cursor@a a `uc  1 a 1 14 ]
+"69
+} 0
+"35
+[v _Lcd_Cmd Lcd_Cmd `(v  1 e 1 0 ]
+{
+[v Lcd_Cmd@a a `uc  1 a 1 wreg ]
+[v Lcd_Cmd@a a `uc  1 a 1 wreg ]
+"37
+[v Lcd_Cmd@a a `uc  1 a 1 10 ]
+"42
+} 0
+"105
+[v _Lcd_Print_String Lcd_Print_String `(v  1 e 1 0 ]
+{
+[v Lcd_Print_String@a a `*.24uc  1 a 1 wreg ]
+"107
+[v Lcd_Print_String@i i `i  1 a 2 16 ]
+"105
+[v Lcd_Print_String@a a `*.24uc  1 a 1 wreg ]
+"108
+[v Lcd_Print_String@a a `*.24uc  1 a 1 18 ]
+"110
+} 0
+"89
+[v _Lcd_Print_Char Lcd_Print_Char `(v  1 e 1 0 ]
+{
+[v Lcd_Print_Char@data data `uc  1 a 1 wreg ]
+"101
+[v Lcd_Print_Char@i_114 i `i  1 a 2 14 ]
+"97
+[v Lcd_Print_Char@i i `i  1 a 2 12 ]
+"91
+[v Lcd_Print_Char@Upper_Nibble Upper_Nibble `uc  1 a 1 10 ]
+[v Lcd_Print_Char@Lower_Nibble Lower_Nibble `uc  1 a 1 9 ]
+"89
+[v Lcd_Print_Char@data data `uc  1 a 1 wreg ]
+"92
+[v Lcd_Print_Char@data data `uc  1 a 1 11 ]
+"103
+} 0
+"12
+[v _Lcd_SetBit Lcd_SetBit `(v  1 e 1 0 ]
+{
+[v Lcd_SetBit@data_bit data_bit `uc  1 a 1 wreg ]
+[v Lcd_SetBit@data_bit data_bit `uc  1 a 1 wreg ]
+"14
+[v Lcd_SetBit@data_bit data_bit `uc  1 a 1 7 ]
+"33
+} 0
+"17 E:\MPLABX\PIC16F877A_Enternal_Interrupts.X\main.c
+[v _ISR_example ISR_example `II(v  1 e 1 0 ]
+{
+"30
+} 0
+"50 E:\MPLABX\PIC16F877A_Enternal_Interrupts.X/lcd.h
+[v i1_Lcd_Set_Cursor Lcd_Set_Cursor `(v  1 e 1 0 ]
+{
+[v i1Lcd_Set_Cursor@a a `uc  1 a 1 wreg ]
+"52
+[v i1Lcd_Set_Cursor@temp temp `uc  1 a 1 10 ]
+[v i1Lcd_Set_Cursor@y y `uc  1 a 1 9 ]
+[v i1Lcd_Set_Cursor@z z `uc  1 a 1 8 ]
+"50
+[v i1Lcd_Set_Cursor@a a `uc  1 a 1 wreg ]
+[v i1Lcd_Set_Cursor@b b `uc  1 p 1 4 ]
+"53
+[v i1Lcd_Set_Cursor@a a `uc  1 a 1 7 ]
+"69
+} 0
+"105
+[v i1_Lcd_Print_String Lcd_Print_String `(v  1 e 1 0 ]
+{
+[v i1Lcd_Print_String@a a `*.24uc  1 a 1 wreg ]
+"107
+[v i1Lcd_Print_String@i i `i  1 a 2 10 ]
+"105
+[v i1Lcd_Print_String@a a `*.24uc  1 a 1 wreg ]
+"108
+[v i1Lcd_Print_String@a a `*.24uc  1 a 1 9 ]
+"110
+} 0
+"89
+[v i1_Lcd_Print_Char Lcd_Print_Char `(v  1 e 1 0 ]
+{
+[v i1Lcd_Print_Char@data data `uc  1 a 1 wreg ]
+"101
+[v i1Lcd_Print_Char@i_114 i `i  1 a 2 7 ]
+"97
+[v i1Lcd_Print_Char@i i `i  1 a 2 5 ]
+"91
+[v i1Lcd_Print_Char@Upper_Nibble Upper_Nibble `uc  1 a 1 3 ]
+[v i1Lcd_Print_Char@Lower_Nibble Lower_Nibble `uc  1 a 1 2 ]
+"89
+[v i1Lcd_Print_Char@data data `uc  1 a 1 wreg ]
+"92
+[v i1Lcd_Print_Char@data data `uc  1 a 1 4 ]
+"103
+} 0
+"44
+[v _Lcd_Clear Lcd_Clear `(i  1 e 2 0 ]
+{
+"48
+} 0
+"35
+[v i1_Lcd_Cmd Lcd_Cmd `(v  1 e 1 0 ]
+{
+[v i1Lcd_Cmd@a a `uc  1 a 1 wreg ]
+[v i1Lcd_Cmd@a a `uc  1 a 1 wreg ]
+"37
+[v i1Lcd_Cmd@a a `uc  1 a 1 3 ]
+"42
+} 0
+"12
+[v i1_Lcd_SetBit Lcd_SetBit `(v  1 e 1 0 ]
+{
+[v i1Lcd_SetBit@data_bit data_bit `uc  1 a 1 wreg ]
+[v i1Lcd_SetBit@data_bit data_bit `uc  1 a 1 wreg ]
+"14
+[v i1Lcd_SetBit@data_bit data_bit `uc  1 a 1 0 ]
+"33
+} 0
